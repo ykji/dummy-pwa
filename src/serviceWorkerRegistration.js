@@ -6,7 +6,7 @@ const isLocalhost = Boolean(
     )
 );
 
-let deferredPrompt;
+// let deferredPrompt;
 
 export function register(config) {
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
